@@ -16,9 +16,12 @@
                 <label for="endpointUrl">Endpoint URL:</label>
                 <input type="text" class="form-control" id="endpointUrl" placeholder="Enter endpoint URL" required>
             </div>
-            <div id="jsonBodyInput" class="form-group">
-                <label for="inputData">Input Data (JSON):</label>
-                <textarea class="form-control" id="inputData" rows="5" placeholder='{"key": "value"}' required></textarea>
+            <div id="individualInputs" class="form-group">
+                <label>Enter Individual Values:</label>
+                <div id="keyValuePairs">
+                    <!-- Key/Value pairs will be dynamically added here -->
+                </div>
+                <button type="button" class="btn btn-outline-secondary mt-2" id="addKeyValuePairBtn">Add Key/Value Pair</button>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

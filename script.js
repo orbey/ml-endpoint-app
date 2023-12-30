@@ -1,9 +1,9 @@
  // Replace 'YOUR_BEARER_TOKEN' with the actual Bearer token value
-const bearerToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSIsImtpZCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTcwMzk2OTEzOSwibmJmIjoxNzAzOTY5MTM5LCJleHAiOjE3MDM5NzQ3NjQsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBWVFBZS84VkFBQUFPQkE1QlJHZE1UUWVCZHRZcWViOEJYZFY1SmJNYnV2YThxd3ZEenJFMElTQ1p3VmluL3FCUDFhVzlETFZQU0lSejF2cW5HQndBSUYwWVBDN3E5Y2ZxblpMTW1SZS9jZCswVWhmeXlxSlpJeDNaM0JHVjZjOXphMkZNUCtSSDZqTi9pcGFKejdoNk5PbWRxM2JCVmd6bDNwK0RvaStwc2FQaUx3Rzcya1ZkRzA9IiwiYW1yIjpbInJzYSIsIm1mYSJdLCJhcHBpZCI6Ijg3MWMwMTBmLTVlNjEtNGZiMS04M2FjLTk4NjEwYTdlOTExMCIsImFwcGlkYWNyIjoiMCIsImNvbnRyb2xzIjpbImFwcF9yZXMiXSwiY29udHJvbHNfYXVkcyI6WyIwMDAwMDAwOS0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiXSwiZGV2aWNlaWQiOiI1Yzk0OTE5Yy0wNTY2LTQyZDMtOGY0Ny05MmViY2UwNjYzNmYiLCJmYW1pbHlfbmFtZSI6Ik9yYmV5IiwiZ2l2ZW5fbmFtZSI6IkVyZW4iLCJpcGFkZHIiOiI3Ni4xOS4xNjguMTk1IiwibmFtZSI6IkVyZW4gT3JiZXkiLCJvaWQiOiIwNzAxMjIyYi1mM2ZmLTQ1NDctYmI4Yi1lYzQ3Y2FlNzBjNTciLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTI0NTI1MDk1LTcwODI1OTYzNy0xNTQzMTE5MDIxLTIwNzU3MDQiLCJwdWlkIjoiMTAwMzIwMDE5MkU1MjY0MiIsInJoIjoiMC5BUm9BdjRqNWN2R0dyMEdScXkxODBCSGJSd2tBQUFBQUFBQUF3QUFBQUFBQUFBQWFBUGMuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic2lnbmluX3N0YXRlIjpbImR2Y19tbmdkIiwiZHZjX2NtcCIsImttc2kiXSwic3ViIjoiRzJGcGJlZ1NaTHd0R0JGbHlmQTlycHF3VzJvVkROSzd6c0pzQkVMOWxEdyIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInVuaXF1ZV9uYW1lIjoiZXJlbm9yYmV5QG1pY3Jvc29mdC5jb20iLCJ1cG4iOiJlcmVub3JiZXlAbWljcm9zb2Z0LmNvbSIsInV0aSI6IjBoLVVaV1lEOFUyZ3NUZlEyREE3QWciLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2MiOlsiQ1AxIl19.dgLQzep6D_gfENEyfvh4RzgnJnmi6Ek0kFxYmBh7puCweV05NAWmezGBaYonHZlE83OMwK74NeCFb2S6F9O9Ym6sFeg6rD0UYWcvfy_asq5FVxEbzK-zl3J6zStaLOl8poLLPvQa6Q4rQ83Aa2betcwBw6bIfbuYqZqSAvlVofYmUrlurqMxik9-S4GXZYvl7pfQlkiU_-9EkRVB5bSPaqflwtRPXKkUR6oyY0LFFIakxPFiNaQ1QAN2mZYLi7QK8jKr1Y5P7ru-X45SnwffuMrmiZ5s_f73ez4AX35K24oo0mb8mwu1MGwQTlUxwCvt4BX7HdL2dFXV36fDuh17KQ'
+const bearerToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSIsImtpZCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTcwMzk3MzczNSwibmJmIjoxNzAzOTczNzM1LCJleHAiOjE3MDM5Nzg0MzIsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBWVFBZS84VkFBQUFkYm5ZaU13TjlkS2JLbWwvV01ZT1pIaW9BaFhwMFVYWjVCMmVOQmVDYlp3RkRXZ1VPcmYycVBjMFhNVTU3dmRuUTNFc2ZQTVo0bVJjNkNjcFlhL1dYN2NJbTZtbXZya0FoQTJMNk1FWUdSRWNQTUJyWERwbXgvckhkcU1Jc2lCSFVqdGV2RmxBY0l3T2hWY3U2MVNYU21MVEhLRTFWdWhRY3NFei92UC9Rb2s9IiwiYW1yIjpbInJzYSIsIm1mYSJdLCJhcHBpZCI6Ijg3MWMwMTBmLTVlNjEtNGZiMS04M2FjLTk4NjEwYTdlOTExMCIsImFwcGlkYWNyIjoiMiIsImNvbnRyb2xzIjpbImFwcF9yZXMiXSwiY29udHJvbHNfYXVkcyI6WyI4NzFjMDEwZi01ZTYxLTRmYjEtODNhYy05ODYxMGE3ZTkxMTAiLCIwMDAwMDAwOS0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiXSwiZGV2aWNlaWQiOiI1Yzk0OTE5Yy0wNTY2LTQyZDMtOGY0Ny05MmViY2UwNjYzNmYiLCJmYW1pbHlfbmFtZSI6Ik9yYmV5IiwiZ2l2ZW5fbmFtZSI6IkVyZW4iLCJpcGFkZHIiOiI3Ni4xMTkuMTgzLjExNCIsIm5hbWUiOiJFcmVuIE9yYmV5Iiwib2lkIjoiMDcwMTIyMmItZjNmZi00NTQ3LWJiOGItZWM0N2NhZTcwYzU3Iiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTEyNDUyNTA5NS03MDgyNTk2MzctMTU0MzExOTAyMS0yMDc1NzA0IiwicHVpZCI6IjEwMDMyMDAxOTJFNTI2NDIiLCJyaCI6IjAuQVJvQXY0ajVjdkdHcjBHUnF5MTgwQkhiUndrQUFBQUFBQUFBd0FBQUFBQUFBQUFhQVBjLiIsInNjcCI6InVzZXJfaW1wZXJzb25hdGlvbiIsInNpZ25pbl9zdGF0ZSI6WyJkdmNfbW5nZCIsImR2Y19jbXAiLCJrbXNpIl0sInN1YiI6IkcyRnBiZWdTWkx3dEdCRmx5ZkE5cnBxd1cyb1ZETks3enNKc0JFTDlsRHciLCJ0aWQiOiI3MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDciLCJ1bmlxdWVfbmFtZSI6ImVyZW5vcmJleUBtaWNyb3NvZnQuY29tIiwidXBuIjoiZXJlbm9yYmV5QG1pY3Jvc29mdC5jb20iLCJ1dGkiOiJfblZmanRNeHAwZUhvd2hmdTU4dEFnIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.MsJcGgBZL0ek1GkgzTpWifS6oqF8f4gsxlp3vi6UJK9xHGa7yluFC2i6j4QY4smz5Q4SuftOerg8Profpxmsx-qyp2-C0RaF65R8s7KpPROQl3p7B_5wR6cL8Lmg4xDYgSxI8NJ9lRAOQlxHUaQYk7nzH6ngYQy31NVFt-Jbw40hQ9eIS7oYoXnY62_C1XdQFkjWu_kLCANUtNdgD_zOOU6Vi-dXvOjjSwUHDpoqppFJ1xa-WbE9ZQrCEj3zFugghJqVzDGLxaLZtVN0wWyajmuAj5VYtvYLns0kf1BRzhIIk_ujScPsWj1FThzu2sRvXZCbDwB-ZHz0_UcctwurFg';
 
 document.getElementById('endpointUrl').addEventListener('input', function () {
     // Clear existing input fields and output signature
-    document.getElementById('keyValuePairs').innerHTML = '';
+    document.getElementById('inputFields').innerHTML = '';
     document.getElementById('output').innerHTML = '';
 
     const endpointUrl = document.getElementById('endpointUrl').value;
@@ -56,18 +56,21 @@ document.getElementById('endpointUrl').addEventListener('input', function () {
     });
 });
 
-
 document.getElementById('mlForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
     const endpointUrl = document.getElementById('endpointUrl').value;
     const modelOutput = document.getElementById('output');
+    const loadingSpinner = document.getElementById('loadingSpinner');
+    const loadingMessage = document.getElementById('loadingMessage');
 
-    // Hide model output
+    // Hide model output and show loading spinner and message
     modelOutput.style.display = 'none';
+    loadingSpinner.style.display = 'inline-block';
+    loadingMessage.style.display = 'block';
 
     // Generate JSON payload based on individual values
-    const keyValuePairs = document.querySelectorAll('#keyValuePairs .input-group');
+    const keyValuePairs = document.querySelectorAll('#inputFields .input-group');
     const individualData = {};
 
     keyValuePairs.forEach(pair => {
@@ -87,6 +90,10 @@ document.getElementById('mlForm').addEventListener('submit', function (e) {
         body: inputData,
     })
     .then(response => {
+        // Hide loading spinner and message on response
+        loadingSpinner.style.display = 'none';
+        loadingMessage.style.display = 'none';
+
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -104,7 +111,7 @@ document.getElementById('mlForm').addEventListener('submit', function (e) {
 
 // Function to create input fields based on the input signature
 function createInputFields(signature) {
-    const keyValuePairs = document.getElementById('keyValuePairs');
+    const keyValuePairs = document.getElementById('inputFields');
 
     signature.forEach(field => {
         const newKeyValuePair = document.createElement('div');
@@ -146,7 +153,7 @@ function displayOutputSignature(signature) {
 
 // Function to validate the form
 function validateForm() {
-    const inputs = document.querySelectorAll('#keyValuePairs input.form-control');
+    const inputs = document.querySelectorAll('#inputFields input.form-control');
     let formValid = true;
 
     inputs.forEach(inputElement => {

@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ML Model Test</title>
+    <title>ML Model Endpoint Tester</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container mt-5">
-        <h2>ML Model Test</h2>
-        <p>A simple web page to test a machine learning model endpoint.</p>
+        <h2>Test ML Model endpoints in Fabric</h2>
+        <p>Provide an endpoint URL below to get started.</p>
 
         <form id="mlForm">
             <div class="form-group">
-                <label for="endpointUrl">Endpoint URL:</label>
                 <input type="text" class="form-control" id="endpointUrl" placeholder="Enter endpoint URL" required>
                 <!-- New element for displaying endpoint status -->
-                <small class="form-text text-muted" id="endpointStatus">Endpoint Status: </small>
+                <small class="form-text text-muted" id="endpointStatus">We'll display the status of your endpoint here.</small>
             </div>
             
             <div class="row">
                 <div class="col-md-6">
                     <h4>Model Inputs:</h4>
-                    <div id="keyValuePairs">
+                    <p>We'll load the required model input fields here.</p>
+                    <div id="inputFields">
                         <!-- Key/Value pairs will be dynamically added here -->
                     </div>
-                    <button type="submit" class="btn btn-primary" style="display: none;">Submit</button>
+                    <button type="submit" class="btn btn-primary" style="display: none;">Get Prediction</button>
                 </div>
 
                 <div class="col-md-6">
                     <h4>Model Outputs:</h4>
-                    <div id="output" style="display: none;"></div>
+                    <p>We'll show your predicted value(s) here.</p>
+                    <p id="loadingMessage" style="display: none;">Please wait while we generate your prediction...</p>
+                    <div id="output" style="display: none;">
+                        <!-- Model output will be displayed here -->
+                    </div>
+                    <div id="loadingSpinner" class="spinner-border text-primary" role="status" style="display: none;">
+                        <span class="sr-only">Loading...</span>
+                    </div>
                 </div>
             </div>
         </form>

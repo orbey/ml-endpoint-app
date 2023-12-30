@@ -121,7 +121,7 @@ function createInputFields(signature) {
             <div class="input-group-prepend">
                 <span class="input-group-text">${field.name} (${field.type})</span>
             </div>
-            <input type="${inputType}" step="any" class="form-control" placeholder="${field.name}" data-type="${field.type}">
+            <input class="form-control" placeholder="${field.name}" data-type="${field.type}">
         `;
         keyValuePairs.appendChild(newKeyValuePair);
 
@@ -158,23 +158,28 @@ function validateForm() {
 
     inputs.forEach(inputElement => {
         const dataType = inputElement.getAttribute('data-type');
+        const value = inputElement.value.trim(); // Trim leading/trailing whitespaces
 
-        if (dataType === 'double' && (isNaN(inputElement.valueAsNumber))) {
-            inputElement.style.border = '1px solid red';
+        if (dataType === 'double') {
+            if (value !== '' && isNaN(value)) {
+                inputElement.style.border = '1px solid red';
 
-            // Add warning icon
-            inputElement.classList.add('is-invalid');
-            formValid = false;
-        } else {
-            inputElement.style.border = ''; // Remove the red border
+                // Add warning icon
+                inputElement.classList.add('is-invalid');
+                formValid = false;
+            } else {
+                inputElement.style.border = '';
 
-            // Remove warning icon
-            inputElement.classList.remove('is-invalid');
+                // Remove warning icon
+                inputElement.classList.remove('is-invalid');
+            }
         }
     });
 
+    const allFieldsNotEmpty = Array.from(inputs).every(inputElement => inputElement.value.trim() !== '');
+
     const submitButton = document.querySelector('#mlForm button[type="submit"]');
     if (submitButton) {
-        submitButton.disabled = !formValid;
+        submitButton.disabled = !formValid || !allFieldsNotEmpty;
     }
 }

@@ -1,6 +1,5 @@
  // Replace 'YOUR_BEARER_TOKEN' with the actual Bearer token value
-const bearerToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSIsImtpZCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTcwNDA1MzAxMiwibmJmIjoxNzA0MDUzMDEyLCJleHAiOjE3MDQwNTgwNDAsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBWVFBZS84VkFBQUFiQ3lsbWlVeWx3ck9RYkkzNC9rU05xTG8yTWUrQng2NUc4c3lGK3NkSjZDT2hpMXZoTWViTm50NlVwS2JrTWVEMnVOZis4RCsydWFncHJtQW10RUt3REo3ZUc2b01ncHFZek55Um5OSkNESTRucy9aeUcwVzRoZmdnTmFKUlFGd0lhcHpyWnBkcUk3d05OQ3Uvcm5aVDVGeGlITW5jb05sSW1SM0k1U0NBVkk9IiwiYW1yIjpbInJzYSIsIm1mYSJdLCJhcHBpZCI6Ijg3MWMwMTBmLTVlNjEtNGZiMS04M2FjLTk4NjEwYTdlOTExMCIsImFwcGlkYWNyIjoiMiIsImNvbnRyb2xzIjpbImFwcF9yZXMiXSwiY29udHJvbHNfYXVkcyI6WyI4NzFjMDEwZi01ZTYxLTRmYjEtODNhYy05ODYxMGE3ZTkxMTAiLCIwMDAwMDAwOS0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiXSwiZGV2aWNlaWQiOiI1Yzk0OTE5Yy0wNTY2LTQyZDMtOGY0Ny05MmViY2UwNjYzNmYiLCJmYW1pbHlfbmFtZSI6Ik9yYmV5IiwiZ2l2ZW5fbmFtZSI6IkVyZW4iLCJpcGFkZHIiOiI3Ni4xOS4xNjguMTk1IiwibmFtZSI6IkVyZW4gT3JiZXkiLCJvaWQiOiIwNzAxMjIyYi1mM2ZmLTQ1NDctYmI4Yi1lYzQ3Y2FlNzBjNTciLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTI0NTI1MDk1LTcwODI1OTYzNy0xNTQzMTE5MDIxLTIwNzU3MDQiLCJwdWlkIjoiMTAwMzIwMDE5MkU1MjY0MiIsInJoIjoiMC5BUm9BdjRqNWN2R0dyMEdScXkxODBCSGJSd2tBQUFBQUFBQUF3QUFBQUFBQUFBQWFBUGMuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic2lnbmluX3N0YXRlIjpbImR2Y19tbmdkIiwiZHZjX2NtcCIsImttc2kiXSwic3ViIjoiRzJGcGJlZ1NaTHd0R0JGbHlmQTlycHF3VzJvVkROSzd6c0pzQkVMOWxEdyIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInVuaXF1ZV9uYW1lIjoiZXJlbm9yYmV5QG1pY3Jvc29mdC5jb20iLCJ1cG4iOiJlcmVub3JiZXlAbWljcm9zb2Z0LmNvbSIsInV0aSI6IkhpQXdUQ1pyV1VLUmN3ZzFDb2hNQVEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdfQ.SXZIo7lLI90PqVt9ESUBPg3W5e5kfewuUDV0M5rXm3bXQyRIrfPgMruuRqGlFZ9eR36vxdGW4hcCGUsmKXuLd5nRBfGlNYm9YFrBztysU1orWQdOpXHMUdD2JvQ9WDU0jkpES2bA9ECXzrd6eJyG03m57aDHFsKcFIG8fCSyg1RSNkAAdM29r4n2r5tkMIgk9RJKDhwuhhtSjnx5L5h_FwwHNHPULqCfaSZ-LwC_2Rh7zFUMynaXaR_56gzZ4QWuyY3n3aeWedWmGQLDV6nUaX7u171XuaZ2XUJXOAzRhpgkblr7LKdTX2YNGDO3zKgUimZkbioxUjIbtY2dRHhXKQ';
-
+const bearerToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSIsImtpZCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTcwNTAxNjgzOCwibmJmIjoxNzA1MDE2ODM4LCJleHAiOjE3MDUwMjE5ODEsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBWVFBZS84VkFBQUF5dlhDT1BvZ0FVQzF6OWhFcG1OUDRYTjVVOE83TGkvYVpEMS85aEpFYWYrWm1HaWtVOTQ1RmFCY3BKRFR4dTVyZkkxTGZZMjg4MWN0eTZ6ZDA0WHZVQ3dnR1YzU0FaSlQvMlR5dDdBYldoZHRqOTEwOW90S1dybFR1SGJ6TzlIalJvRjM3V0haVlkxUisxV3pwbVNOV2lBNUhBT2QzVXN5MzJhOWNCOHV3ZWM9IiwiYW1yIjpbInJzYSIsIm1mYSJdLCJhcHBpZCI6Ijg3MWMwMTBmLTVlNjEtNGZiMS04M2FjLTk4NjEwYTdlOTExMCIsImFwcGlkYWNyIjoiMCIsImNvbnRyb2xzIjpbImFwcF9yZXMiXSwiY29udHJvbHNfYXVkcyI6WyIwMDAwMDAwOS0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiXSwiZGV2aWNlaWQiOiI1Yzk0OTE5Yy0wNTY2LTQyZDMtOGY0Ny05MmViY2UwNjYzNmYiLCJmYW1pbHlfbmFtZSI6Ik9yYmV5IiwiZ2l2ZW5fbmFtZSI6IkVyZW4iLCJpcGFkZHIiOiI3Ni4xOS4xNjguMTk1IiwibmFtZSI6IkVyZW4gT3JiZXkiLCJvaWQiOiIwNzAxMjIyYi1mM2ZmLTQ1NDctYmI4Yi1lYzQ3Y2FlNzBjNTciLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTI0NTI1MDk1LTcwODI1OTYzNy0xNTQzMTE5MDIxLTIwNzU3MDQiLCJwdWlkIjoiMTAwMzIwMDE5MkU1MjY0MiIsInJoIjoiMC5BUm9BdjRqNWN2R0dyMEdScXkxODBCSGJSd2tBQUFBQUFBQUF3QUFBQUFBQUFBQWFBUGMuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic2lnbmluX3N0YXRlIjpbImR2Y19tbmdkIiwiZHZjX2NtcCIsImttc2kiXSwic3ViIjoiRzJGcGJlZ1NaTHd0R0JGbHlmQTlycHF3VzJvVkROSzd6c0pzQkVMOWxEdyIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInVuaXF1ZV9uYW1lIjoiZXJlbm9yYmV5QG1pY3Jvc29mdC5jb20iLCJ1cG4iOiJlcmVub3JiZXlAbWljcm9zb2Z0LmNvbSIsInV0aSI6IkRCTnZTYld3ZFVHZEZsMmJVTk1JQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2MiOlsiQ1AxIl19.l7KLOY4ctGdfsRwLkcmvEHuOOBRrQ9TqLQc7MNlrtiB_URrrGT4dRUzA7RcxKgjc9LZ-ETRWrdGJQFGQPBQF_Xau-fWPYLSVq0IPLNVYu6V3axwYXluBl1CawytMiTdLR55FHlrRbePPqgOYpIUlq5zzRKg5HqQCyw_Y6dgy93q6hSFtWtSfMW8uTuMXz91lbF_m1O6sIWurJvo0k_4qvpbhVmUvCC81T2ZneadGTr-Gul5qmq5Hb02WR9xqXNFsX7FdNy7oTnLFHkymMn8tiSSjMGYZX0YgiBx_8bILr4ud512nQaGpR80MWiaWGy05vNl8o_hR4T2jhWtRMBj8Sg';
 let timeoutId;
 
 // Function to handle endpoint input events
@@ -15,9 +14,9 @@ function handleEndpointInput() {
         document.getElementById('output').innerHTML = '';
 
         const endpointUrl = document.getElementById('endpointUrl').value;
+        const endpointStatusElement = document.getElementById('endpointStatus');
         const submitButton = document.querySelector('#mlForm button[type="submit"]');
         const modelOutput = document.getElementById('output');
-        const endpointStatusElement = document.getElementById('endpointStatus');
 
         // Hide model output
         modelOutput.style.display = 'none';
@@ -53,28 +52,60 @@ function handleEndpointInput() {
             if (endpointStatus === 'Running') {
                 // Handle input signature and create input fields
                 const inputSignature = data.defaultVersionInfo?.inputSignature || data.inputSignature;
-
                 if (inputSignature) {
                     createInputFields(JSON.parse(inputSignature));
                 }
 
                 // Handle output signature and display it
                 const outputSignature = data.defaultVersionInfo?.outputSignature || data.outputSignature;
-
                 if (outputSignature) {
                     displayOutputSignature(JSON.parse(outputSignature));
                 }
 
                 // Show submit button
                 submitButton.style.display = 'block';
+
+                // Show submit button
+                submitButton.style.display = 'block';
+
+                // Add a clickable text on a new line with the status to prompt user to deprovision the model
+                endpointStatusElement.innerHTML = `Endpoint status: ${endpointStatus} - <a href="#" style="color: red;">Deprovision it?</a></span>`;
+
+                // Add a click event listener to the deprovision hyperlink
+                const deprovisionLink = endpointStatusElement.querySelector('a');
+
+                // Add a click event listener to the deprovision hyperlink
+                deprovisionLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    // Display a confirmation dialog
+                    const isConfirmed = confirm('Are you sure you want to deprovision this endpoint?');
+
+                    if (isConfirmed) {
+                        // Call the deprovisionVersion function
+                        deprovisionVersion(endpointUrl).then((deprovisioned) => {
+                            if (deprovisioned) {
+                                // Successfully deprovisioned, refresh the form listener
+                                handleEndpointInput();
+                            }
+                        });
+                    } else {
+                        // User clicked "Cancel" or closed the dialog
+                        console.log('Deprovisioning canceled');
+                    }
+                });
+
+                // Append the deprovision link to the status element
+                endpointStatusElement.appendChild(document.createElement('br')); // Add a line break for better spacing
+                endpointStatusElement.appendChild(deprovisionLink);
             } else if (endpointStatus === 'Unprovisioned') {
                 // Hide submit button
                 submitButton.style.display = 'none';
 
-                // Add a clickable text inline with the status to prompt user to provision the model
-                endpointStatusElement.innerHTML = `Endpoint status: ${endpointStatus} - <a href="#" style="color: blue;">Provision it?</a></span>`;
+                // Add a clickable text on a new line with the status to prompt user to provision the model
+                endpointStatusElement.innerHTML = `Endpoint status: ${endpointStatus} <br><a href="#" style="color: blue;">Provision it?</a></span>`;
 
-                // Add a click event listener to the hyperlink
+                // Add a click event listener to the provision hyperlink
                 const provisionLink = endpointStatusElement.querySelector('a');
 
                 // Event listener for the provision link
@@ -131,19 +162,9 @@ function handleEndpointInput() {
 // Attach the event listener to the endpoint input field
 document.getElementById('endpointUrl').addEventListener('input', handleEndpointInput);
 
-// Function to refresh the form listener
-function refreshFormListener() {
-    // Remove the existing event listener
-    document.getElementById('endpointUrl').removeEventListener('input', handleFormInput);
-
-    // Reattach the event listener
-    document.getElementById('endpointUrl').addEventListener('input', handleFormInput);
-}
-
 // Function to handle provisioning
 async function provisionVersion(endpointUrl) {
     try {
-        console.log("here?")
         // Make a PATCH request to the provisioning URL
         const response = await fetch(endpointUrl, {
             method: 'PATCH',
@@ -167,7 +188,34 @@ async function provisionVersion(endpointUrl) {
     }
 }
 
-document.getElementById('mlForm').addEventListener('submit', function (e) {
+// Add this function to handle deprovisioning
+async function deprovisionVersion(endpointUrl) {
+    try {
+        // Make a DELETE request to the deprovisioning URL
+        const response = await fetch(endpointUrl, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${bearerToken}`,
+            },
+            // Add any additional data or body if required for deprovisioning
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        // Successfully deprovisioned
+        return true;
+    } catch (error) {
+        console.error('Deprovisioning Error:', error);
+        // Handle error during deprovisioning, display a message, etc.
+        return false;
+    }
+}
+
+// Function to handle form submission and get prediction
+function getPrediction(e) {
     e.preventDefault();
 
     const endpointUrl = document.getElementById('endpointUrl').value;
@@ -191,6 +239,7 @@ document.getElementById('mlForm').addEventListener('submit', function (e) {
     });
 
     const inputData = `[${JSON.stringify(individualData)}]`;
+    console.log(inputData)
 
     fetch(endpointUrl, {
         method: 'POST',
@@ -218,7 +267,9 @@ document.getElementById('mlForm').addEventListener('submit', function (e) {
     .catch(error => {
         console.error('Error:', error);
     });
-});
+}
+// Attach the event listener to the form
+document.getElementById('mlForm').addEventListener('submit', getPrediction);
 
 // Function to create input fields based on the input signature
 function createInputFields(signature) {

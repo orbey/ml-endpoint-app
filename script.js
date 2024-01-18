@@ -1,5 +1,5 @@
  // Replace 'YOUR_BEARER_TOKEN' with the actual Bearer token value
-const bearerToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSIsImtpZCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTcwNTAxNjgzOCwibmJmIjoxNzA1MDE2ODM4LCJleHAiOjE3MDUwMjE5ODEsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBWVFBZS84VkFBQUF5dlhDT1BvZ0FVQzF6OWhFcG1OUDRYTjVVOE83TGkvYVpEMS85aEpFYWYrWm1HaWtVOTQ1RmFCY3BKRFR4dTVyZkkxTGZZMjg4MWN0eTZ6ZDA0WHZVQ3dnR1YzU0FaSlQvMlR5dDdBYldoZHRqOTEwOW90S1dybFR1SGJ6TzlIalJvRjM3V0haVlkxUisxV3pwbVNOV2lBNUhBT2QzVXN5MzJhOWNCOHV3ZWM9IiwiYW1yIjpbInJzYSIsIm1mYSJdLCJhcHBpZCI6Ijg3MWMwMTBmLTVlNjEtNGZiMS04M2FjLTk4NjEwYTdlOTExMCIsImFwcGlkYWNyIjoiMCIsImNvbnRyb2xzIjpbImFwcF9yZXMiXSwiY29udHJvbHNfYXVkcyI6WyIwMDAwMDAwOS0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiXSwiZGV2aWNlaWQiOiI1Yzk0OTE5Yy0wNTY2LTQyZDMtOGY0Ny05MmViY2UwNjYzNmYiLCJmYW1pbHlfbmFtZSI6Ik9yYmV5IiwiZ2l2ZW5fbmFtZSI6IkVyZW4iLCJpcGFkZHIiOiI3Ni4xOS4xNjguMTk1IiwibmFtZSI6IkVyZW4gT3JiZXkiLCJvaWQiOiIwNzAxMjIyYi1mM2ZmLTQ1NDctYmI4Yi1lYzQ3Y2FlNzBjNTciLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTI0NTI1MDk1LTcwODI1OTYzNy0xNTQzMTE5MDIxLTIwNzU3MDQiLCJwdWlkIjoiMTAwMzIwMDE5MkU1MjY0MiIsInJoIjoiMC5BUm9BdjRqNWN2R0dyMEdScXkxODBCSGJSd2tBQUFBQUFBQUF3QUFBQUFBQUFBQWFBUGMuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic2lnbmluX3N0YXRlIjpbImR2Y19tbmdkIiwiZHZjX2NtcCIsImttc2kiXSwic3ViIjoiRzJGcGJlZ1NaTHd0R0JGbHlmQTlycHF3VzJvVkROSzd6c0pzQkVMOWxEdyIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInVuaXF1ZV9uYW1lIjoiZXJlbm9yYmV5QG1pY3Jvc29mdC5jb20iLCJ1cG4iOiJlcmVub3JiZXlAbWljcm9zb2Z0LmNvbSIsInV0aSI6IkRCTnZTYld3ZFVHZEZsMmJVTk1JQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2MiOlsiQ1AxIl19.l7KLOY4ctGdfsRwLkcmvEHuOOBRrQ9TqLQc7MNlrtiB_URrrGT4dRUzA7RcxKgjc9LZ-ETRWrdGJQFGQPBQF_Xau-fWPYLSVq0IPLNVYu6V3axwYXluBl1CawytMiTdLR55FHlrRbePPqgOYpIUlq5zzRKg5HqQCyw_Y6dgy93q6hSFtWtSfMW8uTuMXz91lbF_m1O6sIWurJvo0k_4qvpbhVmUvCC81T2ZneadGTr-Gul5qmq5Hb02WR9xqXNFsX7FdNy7oTnLFHkymMn8tiSSjMGYZX0YgiBx_8bILr4ud512nQaGpR80MWiaWGy05vNl8o_hR4T2jhWtRMBj8Sg';
+const bearerToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSIsImtpZCI6IjVCM25SeHRRN2ppOGVORGMzRnkwNUtmOTdaRSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3LyIsImlhdCI6MTcwNTA3OTk3OSwibmJmIjoxNzA1MDc5OTc5LCJleHAiOjE3MDUwODQ4MTcsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBWVFBZS84VkFBQUFhMjE3V3pRc2I1TDM2UEMvcU4wcjFCYjAvYXVXUVNhdjFSK01JVlZ0SVdSVUJsdEJmZWNuQkoyalYzNmNkU1VNc29XOVUrbW85NzVoRUFXRExyUEE4dnBRYnV5SGFtTGxPV0lSbTJMekhqaGpVeGRjZGJUeDJnSm1hY1ZmVXZHT0taOGNlRVBPRE1yK0VoeVpZcTRkZXBNcGwwZ3htUGIxcDQ4VVkxbXRHbDg9IiwiYW1yIjpbInJzYSIsIm1mYSJdLCJhcHBpZCI6Ijg3MWMwMTBmLTVlNjEtNGZiMS04M2FjLTk4NjEwYTdlOTExMCIsImFwcGlkYWNyIjoiMCIsImNvbnRyb2xzIjpbImFwcF9yZXMiXSwiY29udHJvbHNfYXVkcyI6WyIwMDAwMDAwOS0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiXSwiZGV2aWNlaWQiOiI1Yzk0OTE5Yy0wNTY2LTQyZDMtOGY0Ny05MmViY2UwNjYzNmYiLCJmYW1pbHlfbmFtZSI6Ik9yYmV5IiwiZ2l2ZW5fbmFtZSI6IkVyZW4iLCJpcGFkZHIiOiI3Ni4xOS4xNjguMTk1IiwibmFtZSI6IkVyZW4gT3JiZXkiLCJvaWQiOiIwNzAxMjIyYi1mM2ZmLTQ1NDctYmI4Yi1lYzQ3Y2FlNzBjNTciLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTI0NTI1MDk1LTcwODI1OTYzNy0xNTQzMTE5MDIxLTIwNzU3MDQiLCJwdWlkIjoiMTAwMzIwMDE5MkU1MjY0MiIsInJoIjoiMC5BUm9BdjRqNWN2R0dyMEdScXkxODBCSGJSd2tBQUFBQUFBQUF3QUFBQUFBQUFBQWFBUGMuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic2lnbmluX3N0YXRlIjpbImR2Y19tbmdkIiwiZHZjX2NtcCIsImttc2kiXSwic3ViIjoiRzJGcGJlZ1NaTHd0R0JGbHlmQTlycHF3VzJvVkROSzd6c0pzQkVMOWxEdyIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInVuaXF1ZV9uYW1lIjoiZXJlbm9yYmV5QG1pY3Jvc29mdC5jb20iLCJ1cG4iOiJlcmVub3JiZXlAbWljcm9zb2Z0LmNvbSIsInV0aSI6IlRjVHVUMEx0bVVxWXA4UmdtWUFXQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2MiOlsiQ1AxIl19.GxYxUOWtR4xbB6FyDfb-h_cYo8ri7vdnbMGs5158pOWPcpsMM2NuHO5VWALpd1dj8aDtQrsVniBUkF1hgOYIGqcv1RbzRUovVOstGuBEoLH9JQ-AHb1Mvo2stnN_Xea16mNWrNVBQLhrLD2qn7oJUfYZ2k_BeXLyXqTTM-MncafWyv_VQZwHcFblCogoEfdeDYz-PV6Vwukq27L8-EORxKl5RVjsoQTBVWJSAJ0P4ARVHL1iAFj1z03hFciKTLXFY43WuYRU5HkBRA0Iuly8rnUN4BoRLa0r_cVNgx_usomaRTXXTjQP_1vyqZ5QzQ-FCQ1FgRsJ0KmeUTXbk1E_cw';
 let timeoutId;
 
 // Function to handle endpoint input events
@@ -228,18 +228,17 @@ function getPrediction(e) {
     loadingSpinner.style.display = 'inline-block';
     loadingMessage.style.display = 'block';
 
-    // Generate JSON payload based on individual values
+    // Generate array of values based on individual form elements
     const keyValuePairs = document.querySelectorAll('#inputFields .input-group');
-    const individualData = {};
+    const inputData = [[]]; // Initialize as a list within a list
 
     keyValuePairs.forEach(pair => {
-        const label = pair.querySelector('.input-group-prepend span').textContent;
         const value = pair.querySelector('.form-control').value;
-        individualData[label] = !isNaN(value) ? parseFloat(value) : value;
+        inputData[0].push(!isNaN(value) ? parseFloat(value) : value);
     });
 
-    const inputData = `[${JSON.stringify(individualData)}]`;
     console.log(inputData)
+    console.log(JSON.stringify({ "inputs": inputData }),)
 
     fetch(endpointUrl, {
         method: 'POST',
@@ -247,7 +246,7 @@ function getPrediction(e) {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${bearerToken}`,
         },
-        body: inputData,
+        body: JSON.stringify({ "inputs": inputData }),
     })
     .then(response => {
         // Hide loading spinner and message on response
@@ -261,7 +260,10 @@ function getPrediction(e) {
     })
     .then(data => {
         // Display model output
-        modelOutput.innerText = `Model Output: ${data}`;
+
+        console.log(data.predictions[0])
+        const firstPrediction = data.predictions[0][0];
+        modelOutput.innerText = `Model Output: ${firstPrediction}`;
         modelOutput.style.display = 'block';
     })
     .catch(error => {
